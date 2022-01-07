@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   if (result.name) {
     res.send(`<h1>${result.name}<h1>`);
   } else {
-    res.send(`<h1>Browser not detected<h1>`);
+    res.send(`<h1>mi-super-navegador<h1>`);
   }
 });
 
